@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=name\ hp\ mp\ str\ spd
+comment1.target=Player(java.lang.String,\ int,\ int,\ int,\ int)
+comment2.params=wep\ target
+comment2.target=void\ attack(Weapon,\ Character)
+comment3.params=
+comment3.target=int\ getStr()
+comment4.params=
+comment4.target=int\ getSpd()
+comment5.params=
+comment5.target=int\ getMaxHP()
+comment6.params=item
+comment6.target=void\ useConsumable(Consumable)
+numComments=7

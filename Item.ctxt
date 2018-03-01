@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=name\ wt
+comment1.target=Item(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+comment3.params=newN
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=
+comment5.target=int\ getWeight()
+numComments=6

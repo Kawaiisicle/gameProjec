@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Utils
+comment1.params=
+comment1.target=boolean\ coinFlip()
+comment2.params=faces
+comment2.target=int\ roll(int)
+comment3.params=
+comment3.target=void\ instSpells()
+numComments=4

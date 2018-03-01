@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Consumable
+comment1.params=name\ wt\ efc
+comment1.target=Consumable(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getEffect()
+numComments=5

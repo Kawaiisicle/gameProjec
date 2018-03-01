@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Enchantment
+comment1.params=name\ mp\ eff1\ eff2
+comment1.target=Enchantment(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=user\ target
+comment2.target=void\ applyEffect(Player,\ Item)
+numComments=3

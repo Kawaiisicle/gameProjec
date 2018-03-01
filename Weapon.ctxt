@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Weapon
+comment1.params=name\ wt\ dmg
+comment1.target=Weapon(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ attack()
+comment3.params=
+comment3.target=boolean\ parry()
+comment4.params=
+comment4.target=java.util.ArrayList\ getStats()
+comment5.params=
+comment5.target=int\ getDmg()
+comment6.params=
+comment6.target=java.lang.String\ getName()
+numComments=7

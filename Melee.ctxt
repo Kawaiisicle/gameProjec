@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Melee
+comment1.params=name\ wt\ dmg\ crit
+comment1.target=Melee(java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=java.util.ArrayList\ getStats()
+comment3.params=
+comment3.target=int\ getCrit()
+comment4.params=
+comment4.target=java.lang.String\ getName()
+numComments=5
