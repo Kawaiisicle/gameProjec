@@ -8,9 +8,16 @@
 public class Useable extends Item
 {
     boolean multiUse;
-    public Useable(String name, int wt, boolean use)
+    String useText;
+    public Useable(String name, int wt, boolean use, String useText)
     {
         super(name,wt);
         this.multiUse = use;
+        this.useText = useText;
+    }
+    
+    public void use()
+    {
+        System.out.println(useText);
     }
 }
