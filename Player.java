@@ -58,8 +58,18 @@ public class Player extends Character
         return maxHP;
     }
     
+    public int getMP()
+    {
+        return mana;
+    }
+    
     public void useConsumable(Consumable item)
     {
         this.takeDamage(0-item.getEffect());
+    }
+    
+    public void changeMP(int mp)
+    {
+        this.mana += mp;
     }
 }

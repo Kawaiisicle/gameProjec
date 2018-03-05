@@ -8,10 +8,17 @@
 public class Companion extends NPC
 {
     int affinity;
-    
-    public Companion(String name, int health, int aff)
+    String[] states;
+    public Companion(String name, int health)
     {
         super(name, health);
-        this.affinity = aff;
+        this.affinity = 0;
+        this.states = new String[5];
     }
+    
+    public int getAff()
+    {
+        return affinity;
+    }
+    
 }

@@ -7,9 +7,27 @@
  */
 public class ActSpell extends Spell
 {
-    public ActSpell(String name, int mp)
+    String action;
+    String fail;
+    public ActSpell(String name, int mp, String act, String fail)
     {
         super(name,mp);
+        this.action = act;
+        this.fail = fail;
+    }
+    
+    public void cast(Player user)
+    {
+        if(user.getMP()>=this.manaReq)
+        {
+            user.changeMP(0-this.manaReq);
+            System.out.println("You cast "+ name +".");
+            System.out.println(action);
+        }
+        else
+        {
+            System.out.println(fail);
+        }
     }
 }
     

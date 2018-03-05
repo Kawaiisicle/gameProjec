@@ -20,8 +20,4 @@ public class UnfortunateGoblin extends Enemy
         this.debuff("depressed");
     }
     
-    public void debuff(String eff)
-    {
-        debuffs.add(eff);
-    }
 }

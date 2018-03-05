@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.target=ActSpell
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ ActSpell\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=name\ mp
-comment1.target=ActSpell(java.lang.String,\ int)
-numComments=2
+comment1.params=name\ mp\ act\ fail
+comment1.target=ActSpell(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=user
+comment2.target=void\ cast(Player)
+numComments=3
