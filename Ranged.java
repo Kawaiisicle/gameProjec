@@ -29,6 +29,11 @@ public class Ranged extends Weapon
         return name;
     }
     
+    public void setAmmo(int aType)
+    {
+        this.ammoType = aType;
+    }
+    
     public int getAmmo()
     {
         return ammoType;
