@@ -9,6 +9,6 @@ public class Buckler extends Melee
 {
     public Buckler()
     {
-        super("Buckler",20,0,50);
+        super("Buckler",8,0,60);
     }
 }
