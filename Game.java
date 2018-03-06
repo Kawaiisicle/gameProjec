@@ -44,6 +44,7 @@ public class Game
     
     public void main()
     {
-        
+        Nevermore nevermore = new Nevermore();
+        nevermore.checkAff();
     }
 }

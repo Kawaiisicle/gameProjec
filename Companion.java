@@ -21,4 +21,8 @@ public class Companion extends NPC
         return affinity;
     }
     
+    public void checkAff()
+    {
+        System.out.println(name + " is " + states[getAff()] + ".");
+    }
 }

@@ -5,4 +5,6 @@ comment1.params=name\ health
 comment1.target=Companion(java.lang.String,\ int)
 comment2.params=
 comment2.target=int\ getAff()
-numComments=3
+comment3.params=
+comment3.target=void\ checkAff()
+numComments=4
