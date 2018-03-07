@@ -5,11 +5,11 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Curse extends EnhancementSpell
+public class Curse extends Enhancement
 {
     public Curse()
     {
-        super("Cursed Ehancement Spell", 10);
+        super("Cursed enancement spell", 10);
     }
     
     public void enhance(Player user, Ammo target)

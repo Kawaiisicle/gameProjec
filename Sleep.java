@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Sleep extends EnhancementSpell
+public class Sleep extends Enhancement
 {
     public Sleep()
     {

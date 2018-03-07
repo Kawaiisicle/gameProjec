@@ -8,4 +8,6 @@ comment3.params=
 comment3.target=void\ listDebuffs()
 comment4.params=att
 comment4.target=boolean\ blocked(Player)
-numComments=5
+comment5.params=player
+comment5.target=int\ damageMod(Player)
+numComments=6

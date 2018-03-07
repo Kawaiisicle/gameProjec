@@ -5,9 +5,9 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class EnhancementSpell extends Spell
+public class Enhancement extends Spell
 {
-    public EnhancementSpell(String name, int mp)
+    public Enhancement(String name, int mp)
     {
         super(name, mp);
     }

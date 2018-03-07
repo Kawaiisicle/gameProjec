@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.target=EnhancementSpell
+comment0.target=Enhancement
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Enchantment\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name\ mp
-comment1.target=EnhancementSpell(java.lang.String,\ int)
+comment1.target=Enhancement(java.lang.String,\ int)
 numComments=2

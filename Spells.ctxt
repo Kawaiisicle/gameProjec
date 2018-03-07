@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Spells
+comment1.params=
+comment1.target=Spells()
+comment2.params=name
+comment2.target=Spell\ getSpell(java.lang.String)
+numComments=3
