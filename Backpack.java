@@ -10,6 +10,7 @@ public class Backpack implements BackpackInterface
 {
     // instance variables - replace the example below with your own
     private ArrayList<Item> backpack;
+    private int weight;
 
     /**
      * Constructor for objects of class Backpack
@@ -51,6 +52,19 @@ public class Backpack implements BackpackInterface
         return false;
     }
     
+    public void updateWeight()
+    {
+        for(Item item : backpack)
+        {
+            weight += item.getWeight();
+        }
+    }
+    
+    public int getWeight()
+    {
+        return weight;  
+    }
+    
     /**
      * Gets the contents of the backpack
      * 
@@ -78,7 +92,7 @@ public class Backpack implements BackpackInterface
         return thing;
     }
     
-    public ArrayList getBackpack()
+    public ArrayList<Item> getBackpack()
     {
         return backpack;
     }

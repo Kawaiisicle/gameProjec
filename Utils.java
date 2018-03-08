@@ -30,6 +30,32 @@ public class Utils
         return result;
     }
     
+    public Item selectItem(String input, Backpack container)
+    /**
+     * This will take a plaintext input and search the backpack,
+     * or any other container, for something with a matching name.
+     * 
+     *      selectItem(sword, pack) + sword in backpack
+     *          returns the sword
+     *          
+     *      selectItem(gun, pack) + no gun in backpack
+     *          returns null, prints message
+     *      
+     */
+    {
+        ArrayList<Item> pack = container.getBackpack();
+        for(Item item : pack)
+        {
+            if(item.getName().toUpperCase().equals(input.toUpperCase()))
+            {
+                return item;
+            }
+        }
+        System.out.println("You don't have an item with that name.");
+        System.out.println("Maybe you mispelled it?");
+        return null;
+    }
+    
     public void combat(Player player, Enemy enemy)
     /**
      * Okay, so. Here's the deal.
