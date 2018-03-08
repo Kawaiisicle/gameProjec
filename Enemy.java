@@ -45,6 +45,16 @@ public class Enemy extends Character
         }
     }
     
+    public int getSpd()
+    {
+        return speed;
+    }
+    
+    public int getStr()
+    {
+        return strength;
+    }
+    
     public boolean blocked(Player att)
     {
         double chanceOfFail = (att.getStr() + att.getSpd()) / (strength + speed);

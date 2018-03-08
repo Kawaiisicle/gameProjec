@@ -74,6 +74,28 @@ public class Utils
      *      give chance to attempt flee
      */
     {
+        /**
+         * These stats will be used to determine
+         * the effective speed of each entity.
+         * After being parried successfully,
+         * this stat will drop, thus dropping
+         * the effected entity's likelihood
+         * to have first move.
+         */
+        int effSpeedP = player.getSpd();
+        int effSpeedE = enemy.getSpd();
+        
+        
+        
+        if(effSpeedP > effSpeedE) //player first
+        {
+        }
+        else if(effSpeedP < effSpeedE) //enemy first
+        {
+        }
+        else //equal speed
+        {
+        }
         
     }
 }

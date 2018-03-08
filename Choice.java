@@ -5,29 +5,52 @@
  * @author (your name)
  * @version (a version number or a date)
  */
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
 public class Choice
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Choice
-     */
-    public Choice()
+    String question;
+    ArrayList<String> choices;
+    int answer;
+    public Choice(String question)
     {
-        // initialise instance variables
-        x = 0;
+        this.question = question;
+        choices = new ArrayList<String>();
+        answer = -1;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    
+    public void add(String option)
     {
-        // put your code here
-        return x + y;
+        choices.add(option);
+    }
+    
+    public String response()
+    {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.next();
+    }
+    
+    public String findString(ArrayList<String> list, String string)
+    {
+        String input = string.toUpperCase();
+        for(String str : list)
+        {
+            String newStr = str.toUpperCase();
+        }
+        return null;
+    }
+    
+    public int ask()
+    {
+        System.out.println(question);
+        for(String choice : choices)
+        {
+            System.out.print(choices.indexOf(choice)+1 + ". - ");
+            System.out.println(choice);
+            System.out.println();
+        }
+        String response = response();
+        return 0; //don't do this. get rid of this. please.
     }
 }
