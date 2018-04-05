@@ -31,14 +31,18 @@ public class Choice
         return scanner.next();
     }
     
-    public String findString(ArrayList<String> list, String string)
+    public int findString(ArrayList<String> list, String string)
     {
         String input = string.toUpperCase();
         for(String str : list)
         {
             String newStr = str.toUpperCase();
+            if(input.equals(newStr))
+            {
+                return choices.indexOf(str);
+            }
         }
-        return null;
+        return -1;
     }
     
     public int ask()
@@ -51,6 +55,6 @@ public class Choice
             System.out.println();
         }
         String response = response();
-        return 0; //don't do this. get rid of this. please.
+        return findString(choices, response);
     }
 }
